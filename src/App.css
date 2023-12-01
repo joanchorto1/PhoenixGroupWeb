@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+#card-div{
+  max-width: 100%;
+  height: 25%;
+  background-image:  url("https://png.pngtree.com/png-vector/20220704/ourmid/pngtree-phoenix-bird-logo-with-flaming-fire-body-for-game-team-png-image_5686330.png");
+  background-position: center; /* Alinea la imagen al centro vertical y horizontal */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  position: relative;
+}
+
+#seccion{
+  background-image: url("https://www.esic.edu/sites/default/files/2022-07/business-partners-handshake-global-corporate-with-technology-concept.jpg");
+}
+
+
+
