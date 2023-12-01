@@ -16,11 +16,11 @@ import {Helmet} from "react-helmet";
 
 const growthData = [
     { month: 'Mes 1', leads: 50 },
-    { month: 'Mes 2', leads: 80 },
-    { month: 'Mes 3', leads: 120 },
-    { month: 'Mes 4', leads: 200 },
-    { month: 'Mes 5', leads: 300 },
-    { month: 'Mes 6', leads: 450 },
+    { month: 'Mes 2', leads: 70 },
+    { month: 'Mes 3', leads: 90 },
+    { month: 'Mes 4', leads: 115 },
+    { month: 'Mes 5', leads: 150 },
+    { month: 'Mes 6', leads: 200 },
 ];
 
 const Home = () => {
