@@ -75,7 +75,7 @@ const Home = () => {
 
                     {/* Marketing Digital */}
                     <div className="card shadow mb-5 bg-light rounded p-4">
-                        <h3 className="mt-3 text-center">Marketing Digital en Tarragona</h3>
+                        <h3 className="mt-3 text-center mb-4">Marketing Digital en Tarragona</h3>
                         <div className="d-flex align-items-center justify-content-center">
                             <div className="text-center">
                                 <p>
@@ -100,7 +100,7 @@ const Home = () => {
 
                     {/* Desarrollo Web */}
                     <div className="card shadow mb-5 bg-light rounded p-4">
-                        <h3 className="mt-3 text-center">Desarrollo Web en Tarragona</h3>
+                        <h3 className="mt-3 text-center mb-4">Desarrollo Web en Tarragona</h3>
                         <div className="d-flex align-items-center justify-content-center">
                             <div className="text-center">
                                 <p>
@@ -127,7 +127,7 @@ const Home = () => {
 
                     {/* Diseño Gráfico */}
                     <div className="card shadow mb-5 bg-light rounded p-4">
-                        <h3 className="mt-3 text-center">Diseño Gráfico en Tarragona</h3>
+                        <h3 className="mt-3 text-center mb-4">Diseño Gráfico en Tarragona</h3>
                         <div className="d-flex align-items-center justify-content-center">
                             <div className="text-center">
                                 <p>
@@ -153,7 +153,7 @@ const Home = () => {
 
                     {/* Gestión de Eventos */}
                     <div className="card shadow mb-5 bg-light rounded p-4">
-                        <h3 className="mt-3 text-center">Gestión de Eventos en Tarragona</h3>
+                        <h3 className="mt-3 text-center mb-4">Gestión de Eventos en Tarragona</h3>
                         <div className="d-flex align-items-center justify-content-center">
                             <div className="text-center">
                                 <p>
