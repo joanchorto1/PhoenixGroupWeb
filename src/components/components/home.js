@@ -42,6 +42,7 @@ const Home = () => {
                 <title>Phoenix Group Tarragona - Tu agencia de marketing digital y desarrollo web. </title>
                 <link rel="canonical" href="https://phoenixgrp.es/"/>
                 <meta name={"description"} content={"Ofrecemos servicios de marketing digital, desarrollo web, diseño gráfico y gestión de eventos.¡Potencia tu presencia en línea con Phoenix Group! Ubicados en Tarragona y el delta de l'ebre."}/>
+                <link rel="icon" href="https://phoenixgrp.es/phoenixlogo2.png"/>
             </Helmet>
 
             <section className="py-5 bg-light">
@@ -74,7 +75,7 @@ const Home = () => {
 
                     {/* Marketing Digital */}
                     <div className="card shadow mb-5 bg-light rounded p-4">
-                        <h3 className="mt-3 text-center">Marketing Digital</h3>
+                        <h3 className="mt-3 text-center">Marketing Digital en Tarragona</h3>
                         <div className="d-flex align-items-center justify-content-center">
                             <div className="text-center">
                                 <p>
@@ -99,7 +100,7 @@ const Home = () => {
 
                     {/* Desarrollo Web */}
                     <div className="card shadow mb-5 bg-light rounded p-4">
-                        <h3 className="mt-3 text-center">Desarrollo Web</h3>
+                        <h3 className="mt-3 text-center">Desarrollo Web en Tarragona</h3>
                         <div className="d-flex align-items-center justify-content-center">
                             <div className="text-center">
                                 <p>
@@ -126,7 +127,7 @@ const Home = () => {
 
                     {/* Diseño Gráfico */}
                     <div className="card shadow mb-5 bg-light rounded p-4">
-                        <h3 className="mt-3 text-center">Diseño Gráfico</h3>
+                        <h3 className="mt-3 text-center">Diseño Gráfico en Tarragona</h3>
                         <div className="d-flex align-items-center justify-content-center">
                             <div className="text-center">
                                 <p>
@@ -152,7 +153,7 @@ const Home = () => {
 
                     {/* Gestión de Eventos */}
                     <div className="card shadow mb-5 bg-light rounded p-4">
-                        <h3 className="mt-3 text-center">Gestión de Eventos</h3>
+                        <h3 className="mt-3 text-center">Gestión de Eventos en Tarragona</h3>
                         <div className="d-flex align-items-center justify-content-center">
                             <div className="text-center">
                                 <p>
