@@ -259,6 +259,12 @@ const Home = () => {
                     <Button style={{backgroundColor:'#2c3e50'}} className="mt-4"><a href="/contacto" style={{backgroundColor:'#2c3e50', color: "white" }}>Contacta ahora</a></Button>
                 </div>
             </section>
+            {/*<section>*/}
+            {/*    /!*<Blog />*!/*/}
+            {/*</section>*/}
+
+
+
             {/*<section className="mb-5 text-center">*/}
             {/*    <h2 className="mb-4">Nuestros Clientes</h2>*/}
             {/*    <Carousel className="d-inline">*/}
@@ -305,7 +311,7 @@ const Home = () => {
             {/*        </div>*/}
             {/*    </div>*/}
             {/*</section>*/}
-            <Blog />
+
         </Layout>
     );
 };
