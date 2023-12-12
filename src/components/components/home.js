@@ -11,7 +11,7 @@ import desweb from '../img/webHome.jpeg';
 import Marketing from '../img/marketingHome.jpeg'
 import disgraf from '../img/graficHome.jpeg'
 import evnt from '../img/eventsHome.jpeg'
-import Blog from "./blog";
+// import Blog from "./blog";
 import {Helmet} from "react-helmet";
 
 const growthData = [
