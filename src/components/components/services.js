@@ -1,11 +1,6 @@
 import React  from "react";
 import { Link } from "react-router-dom";
 import Layout from "../layout/layout";
-
-import marketingDigitalImage from "../img/marketingServices.jpeg"; // Reemplaza con la ruta correcta de la imagen
-import desarrolloWebImage from "../img/webService.jpeg"; // Reemplaza con la ruta correcta de la imagen
-import disenoGraficoImage from "../img/graficServices.jpeg"; // Reemplaza con la ruta correcta de la imagen
-import gestionEventosImage from "../img/eventsService.jpeg";
 import {Helmet} from "react-helmet"; // Reemplaza con la ruta correcta de la imagen
 
 const Services = () => {
@@ -13,68 +8,34 @@ const Services = () => {
 
     const servicesData = [
         {
-            title: "Marketing Digital",
-            summary:
-                "Impulsa tu presencia en línea con estrategias efectivas y campañas que conectan con tu audiencia.",
-            offerings: [
-                "Gestión de Redes Sociales",
-                "Estrategias de Generación de Leads",
-                "Publicidad Online",
-                "SEO (Optimización para Motores de Búsqueda)",
-                "Email Marketing",
-                "Análisis de Competencia",
-                "Campañas en Redes Sociales",
-                "Marketing de Contenidos",
-            ],
-            image: marketingDigitalImage,
+            id: 1,
+            title: 'Gestión de Redes Sociales',
+            description: 'Ofrecemos servicios integrales de gestión de redes sociales para mejorar la visibilidad y participación de tu negocio en plataformas como Facebook, Instagram y Twitter. Desde la creación de contenido hasta la interacción con la audiencia, nos encargamos de todo.',
         },
         {
-            title: "Desarrollo Web",
-            summary:
-                "Transformamos ideas en soluciones tecnológicas personalizadas, desde sitios web atractivos hasta aplicaciones web complejas.",
-            offerings: [
-                "Desarrollo de Sitios Web",
-                "Implementación de Aplicaciones Web",
-                "Sistemas ERP",
-                "Diseño UI/UX",
-                "Desarrollo de Tiendas en Línea",
-                "Optimización de Rendimiento",
-                "Migración de Plataformas",
-                "Mantenimiento y Soporte",
-            ],
-            image: desarrolloWebImage,
+            id: 2,
+            title: 'Diseño de Páginas Web y E-commerce',
+            description: 'Creamos experiencias únicas con nuestro servicio de diseño de páginas web y tiendas online. Desde sitios web estáticos hasta complejas plataformas de comercio electrónico, nos aseguramos de que tu presencia en línea sea atractiva y funcional.',
         },
         {
-            title: "Diseño Gráfico",
-            summary:
-                "Destaca tu identidad de marca con diseños visualmente atractivos, desde logotipos hasta materiales de marketing.",
-            offerings: [
-                "Diseño de Logotipos",
-                "Materiales de Marketing",
-                "Diseño de Folletos",
-                "Ilustraciones Creativas",
-                "Identidad Visual de Marca",
-                "Diseño de Envases",
-                "Gráficos para Redes Sociales",
-                "Presentaciones Corporativas",
-            ],
-            image: disenoGraficoImage,
+            id: 3,
+            title: 'Creación de Contenido',
+            description: 'Transformamos ideas en contenido atractivo y relevante. Ya sea para redes sociales, blogs o cualquier otra plataforma, nuestro servicio de creación de contenido garantiza que tu mensaje llegue de manera efectiva a tu audiencia.',
         },
         {
-            title: "Gestión de Eventos",
-            summary:
-                "Organizamos eventos que dejan una impresión duradera, gestionando todos los detalles para garantizar el éxito.",
-            offerings: [
-                "Eventos Corporativos",
-                "Conferencias",
-                "Celebraciones Especiales",
-                "Gestión Logística",
-                "Ferias y Exposiciones",
-                "Team Building",
-                "Eventos Virtuales",
-                "Servicios de Catering",
-            ],
-            image: gestionEventosImage,
+            id: 4,
+            title: 'Campañas de Marketing',
+            description: 'Desarrollamos estrategias de marketing personalizadas para promocionar tu marca y productos. Desde campañas publicitarias en línea hasta estrategias tradicionales, nos aseguramos de maximizar tu alcance y ROI.',
+        },
+        {
+            id: 5,
+            title: 'Organización de Eventos',
+            description: 'Desde la planificación hasta la ejecución, nos encargamos de todos los detalles para crear eventos memorables. Ya sea una conferencia, feria comercial o lanzamiento de producto, nuestra experiencia garantiza el éxito de tu evento.',
+        },
+        {
+            id: 6,
+            title: 'Videos con Drone para Redes',
+            description: 'Añade un toque único a tu presencia en redes sociales con nuestros servicios de grabación y edición de videos con drones. Capturamos imágenes impresionantes desde el cielo para resaltar tu negocio y productos.',
         },
     ];
 
@@ -85,46 +46,38 @@ const Services = () => {
                 <link rel="canonical" href="https://phoenixgrp.es/servicios"/>
                 <meta name={"description"} content={"Ofrecemos servicios de marketing digital, desarrollo web, diseño gráfico y gestión de eventos en Tarragona y el delta de l'ebre."}/>
             </Helmet>
-            <div className="container mt-5">
+            <div className="container mt-5" >
                 <section style={{ marginBottom: "10%" }}>
-                    <h1 className={"text-center"}>Nuestros Servicios</h1>
+                    <h1 className={"text-center pb-5"}>Nuestros Servicios</h1>
                     <div className="row">
                         {servicesData.map((service, index) => (
                             <div key={index} className="col-md-6 mb-4">
                                 <div
-                                    style={{ backgroundColor: "#f8f9fa" }}
+                                    style={{
+                                        backgroundColor: "#f8f9fa",
+                                        height: "100%", // Establece una altura fija
+                                        display: "flex",
+                                        flexDirection: "column",
+                                        justifyContent: "space-between",
+                                    }}
                                     className="shadow p-3 mb-5 rounded"
                                 >
-                                    <img
-                                        src={service.image}
-                                        alt={service.title}
-                                        className="img-fluid rounded mb-3"
-                                    />
-                                    <h2 className="mt-3">{service.title}</h2>
-                                    <p>{service.summary}</p>
-                                    <ul>
-                                        {service.offerings.map((offering, idx) => (
-                                            <li key={idx}>{offering}</li>
-                                        ))}
-                                    </ul>
+                                    <div>
+                                        <h2 className="mt-3">{service.title}</h2>
+                                        <p>{service.description}</p>
+                                    </div>
+                                    <div className="text-center pt-4">
+                                        <Link
+                                            to="/contacto"
+                                            className="btn"
+                                            style={{ backgroundColor: "#FF7800FF", color: "#fff" }}
+                                        >
+                                            Contacta con Nosotros
+                                        </Link>
+                                    </div>
                                 </div>
                             </div>
                         ))}
-                    </div>
-                    <div className={"text-center pt-4"}>
-                        <p>
-                            En Phoenix Group, nuestros servicios van más allá de lo
-                            convencional. Somos tu socio estratégico en el viaje hacia el éxito.
-                            ¡Descubre cómo podemos potenciar tu negocio y hacerlo destacar en el
-                            mercado!
-                        </p>
-                        <Link
-                            to="/contacto"
-                            className="btn btn-primary text-center"
-                            style={{ backgroundColor: "#2c3e50", color: "#fff" }}
-                        >
-                            Contacta con Nosotros
-                        </Link>
                     </div>
                 </section>
             </div>

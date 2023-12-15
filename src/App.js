@@ -18,6 +18,7 @@ import DisenoGrafico1 from "./components/articles/disenoGrafico1";
 import DisenoGrafico2 from "./components/articles/disenoGrafico2";
 import Eventos2 from "./components/articles/eventos2";
 import Eventos1 from "./components/articles/eventos1";
+import Blog from "./components/components/blog";
 
 function App() {
     return (
@@ -32,6 +33,7 @@ function App() {
                 <Route path='/cookie-notice' element={<CookieNotice/>}/>
                 <Route path='/terms-and-conditions' element={<TermsAndConditions/>}/>
                 {/* Rutas de artículos de blog */}
+                <Route path='/blog' element={<Blog/>}/>
                 <Route path='/blog/marketing1' element={<MarketingDigital1/>}/>
                 <Route path='/blog/marketing2' element={<MarketingDigital2/>}/>
                 <Route path='/blog/desarrollo1' element={<DesarrolloWeb1/>}/>

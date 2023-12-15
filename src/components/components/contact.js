@@ -129,7 +129,7 @@ const Contact = () => {
                                     required
                                 />
                             </div>
-                            <button type="submit" className="btn btn-primary" style={{ backgroundColor: '#2c3e50' }}>
+                            <button type="submit" className="btn " style={{ backgroundColor: '#ff7800', color:"white" }}>
                                 Enviar Mensaje
                             </button>
                             {isFormSubmitted && (
