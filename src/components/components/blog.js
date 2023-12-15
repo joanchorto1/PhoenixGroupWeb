@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 
 import Layout from "../layout/layout";
 import tarragona from "../img/blog.png.webp";
+import {Helmet} from "react-helmet";
+import {Title} from "chart.js";
 
 const articlesByTopic = {
     Marketing: [
@@ -63,6 +65,11 @@ const articlesByTopic = {
 const Blog = () => {
     return (
         <Layout>
+            <Helmet>
+                <title>Phoenix Group Blog</title>
+                <link rel="canonical" href="https://phoenixgrp.es/blog"/>
+                <meta name={"description"} content={"Aqui subimos articulos atractivos y interesantes sobre marketing, diseño grafico, desarollo web y organizacion de eventos."}/>
+            </Helmet>
             <div className="container mt-5">
                 <div className={"text-center"}>
                     <img className={"pb-5"} src={tarragona} alt="" style={{ maxWidth: '100%', height: 'auto' }} />
