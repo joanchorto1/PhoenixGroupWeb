@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import Layout from "../layout/layout";
 import tarragona from "../img/blog.png.webp";
 import {Helmet} from "react-helmet";
-import {Title} from "chart.js";
+
 
 const articlesByTopic = {
     Marketing: [
