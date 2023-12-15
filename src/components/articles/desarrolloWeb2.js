@@ -3,7 +3,7 @@ import React from "react";
 import Layout from "../layout/layout";
 import {Helmet} from "react-helmet";
 import delta from "../img/delta.jpg"
-import tarragona from "../img/tarragona.jpg";
+
 
 const DesarrolloWeb2 = () => {
 
