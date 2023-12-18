@@ -3,7 +3,7 @@ import {Button, Card} from 'react-bootstrap';
 import Layout from "../layout/layout";
 import portafoli1 from "../img/wowscreen.png"
 import portafoli2 from "../img/phoenixwebscreen.png"
-import portafoli3 from "../img/nonowebscreen.png"
+import portafoli3 from "../img/nonowebscreen2.png"
 // import LogoFruts from "../img/FruitsRobert.jpeg";
 // import LogoMario from "../img/construcionesMario.jpeg"
 // import LogoGastromar from "../img/gastromarIA.jpeg";
@@ -15,6 +15,7 @@ import ig from "../img/igProf.jpeg"
 import camara from "../img/camara.jpeg"
 import posters from "../img/posters.jpeg"
 import hand from "../img/handshake.jpeg"
+import hand2 from "../img/hand.jpeg"
 // import home1 from '../img/Home1.jpg';
 // import home2 from '../img/Home2.jpg';
 // import home3 from '../img/home3.jpg';
@@ -204,33 +205,7 @@ const Home = () => {
 
                 </div>
             </section>
-            <section className={"py-5"} style={{
-                backgroundImage: `url(${hand})`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center center',
-                backgroundRepeat: 'no-repeat',
-                height: 'auto',
-                display: 'flex',
-                alignItems: 'center',
-            }}>
-                <div className={"container"}>
-                    <div className="text-center p-2" style={{backgroundColor:"white"}}>
 
-                        <h2 className="m-4">¿Listo para Potenciar tu Negocio?</h2>
-                        <p>
-                            Descubre cómo Phoenix Group puede llevar tu empresa al siguiente nivel. Ofrecemos soluciones
-                            personalizadas alineadas con tus objetivos comerciales.
-                        </p>
-                        <div className={'mb-4 text-center'}>
-                            <Button variant={"outline-light"} style={{backgroundColor: '#FF7800'}} className="mt-4"><a
-                                href="/contacto" style={{color: "white"}}>Contacta ahora</a></Button>
-
-                        </div>
-                    </div>
-                </div>
-
-
-            </section>
 
             {/* Sección 1: Trabajos Realizados */}
             <section className={"pb-5"}>
@@ -272,7 +247,7 @@ const Home = () => {
                         <div style={{ width: '100%', overflow: 'hidden', height: '500px' }}>
                             <Card className="h-100">
                                 <iframe
-                                    src="https://www.youtube.com/embed/tYxmX1Nam1c?si=rVjkVrwd406B0HzB"
+                                    src="https://www.youtube.com/tYxmX1Nam1c?si=rVjkVrwd406B0HzBHHHH"
                                     title="YouTube video player"
                                     frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -293,8 +268,66 @@ const Home = () => {
                    </div>
                 </div>
             </section>
+        <section>
+            <div>
+                <h2 className="p-5 text-white text-center" style={{backgroundColor:'#FF7800'}}>Descubre por qué somos la elección ideal</h2>
+
+                <div className="container text-center">
+                <div className="row justify-content-center align-items-center">
+                    <div className="p-4 col-md-6">
+                        <p className="lead">
+                            En Phoenix Group, nos enorgullece ofrecer soluciones integrales en marketing digital, desarrollo web,
+                            diseño gráfico y gestión de eventos. Aquí te damos algunas razones para elegirnos:
+                        </p>
+                        <ul className="text-left">
+                            <li className={"list-unstyled"}>Experiencia y profesionalismo.</li>
+                            <li className={"list-unstyled"}>Enfoque personalizado para cada cliente.</li>
+                            <li className={"list-unstyled"}>Resultados medibles y transparentes.</li>
+                            <li className={"list-unstyled"}>Equipo creativo y apasionado.</li>
+                        </ul>
+                        <p>
+                            Estamos comprometidos a llevar tu empresa al siguiente nivel y a construir una presencia en línea
+                            que destaque en el mercado.
+                        </p>
+                    </div>
+                    <div className=" pb-4 col-md-6">
+                        <img src={hand2} alt="Razones para elegirnos" className="img-fluid" />
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section className={"py-5"} style={{
+            backgroundImage: `url(${hand})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center center',
+            backgroundRepeat: 'no-repeat',
+            height: '25vi',
+            display: 'flex',
+            alignItems: 'center',
+        }}>
 
 
+            <div className={"container"}>
+                <div className="text-center p-2" style={{backgroundColor:"white"}}>
+
+                    <h2 className="m-4">¿Listo para Potenciar tu Negocio?</h2>
+                    <p>
+                        Descubre cómo Phoenix Group puede llevar tu empresa al siguiente nivel. Ofrecemos soluciones
+                        personalizadas alineadas con tus objetivos comerciales.
+                    </p>
+                    <div className={'mb-4 text-center'}>
+                        <Button variant={"outline-light"} style={{backgroundColor: '#FF7800'}} className="mt-4"><a
+                            href="/contacto" style={{color: "white"}}>Contacta ahora</a></Button>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
 
             {/* Sección 2: Logos de Clientes */}
             {/*<section className="py-5" style={{backgroundColor: '#f8f9fa'}}>*/}
