@@ -303,7 +303,7 @@ const Home = () => {
             backgroundSize: 'cover',
             backgroundPosition: 'center center',
             backgroundRepeat: 'no-repeat',
-            height: '25vi',
+            height: 'auto',
             display: 'flex',
             alignItems: 'center',
         }}>
