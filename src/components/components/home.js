@@ -4,6 +4,7 @@ import Layout from "../layout/layout";
 import portafoli1 from "../img/wowscreen.png"
 import portafoli2 from "../img/phoenixwebscreen.png"
 import portafoli3 from "../img/nonowebscreen2.png"
+import portafoli4 from "../img/igriuriu.png"
 // import LogoFruts from "../img/FruitsRobert.jpeg";
 // import LogoMario from "../img/construcionesMario.jpeg"
 // import LogoGastromar from "../img/gastromarIA.jpeg";
@@ -14,7 +15,10 @@ import congreso from "../img/corporative.jpeg"
 import ig from "../img/igProf.jpeg"
 import camara from "../img/camara.jpeg"
 import posters from "../img/posters.jpeg"
-import hand from "../img/handshake.jpeg"
+import seo from "../img/SEO.jpeg"
+import ads from "../img/ads.jpeg"
+import back from "../img/back.jpeg"
+// import hand from "../img/handshake.jpeg"
 import hand2 from "../img/hand.jpeg"
 // import home1 from '../img/Home1.jpg';
 // import home2 from '../img/Home2.jpg';
@@ -56,7 +60,7 @@ const Home = () => {
                         <p>
                             Phoenix Group es una empresa dedicada a marketing digital, desarrollo web, diseño gráfico y
                             gestión de eventos. Nos enorgullece saber que somos una pequeña empresa con gran proyección
-                            en el delta de l'ebre y en la provincia de Tarragona.
+                            en les Terres de l'Ebre y en la provincia de Tarragona.
                         </p>
                         <p>
                             En Phoenix Group, nos esforzamos por ayudar a crecer a nuestros clientes. Ya sea que
@@ -89,7 +93,7 @@ const Home = () => {
                                 necesidades, brindando una presencia en línea que destaca.
                             </p>
                             <div className={"text-center"}><Button variant="outline-light" style={{backgroundColor: '#FF7800', color: 'white'}}
-                                    href={"/servicios/paginas-web"}>
+                                    href={"/servicios/"}>
                                 Saber más
                             </Button></div>
                         </div>
@@ -97,6 +101,7 @@ const Home = () => {
                             <img style={{width: "100%", height: "100%"}} src={WebServ} alt=""/>
                         </div>
                     </div>
+
 
                     <div style={{display: "flex",
                         alignItems: "center",
@@ -111,7 +116,7 @@ const Home = () => {
                                 redes sociales. Desde estrategias de contenido hasta la interacción con la audiencia, te
                                 ayudamos a construir y fortalecer tu comunidad digital.</p>
                             <div className={"text-center"}><Button variant="outline-light" style={{backgroundColor: '#FF7800', color: 'white'}}
-                                    href={"/servicios/paginas-web"}>
+                                    href={"/servicios/"}>
                                 Saber más
                             </Button></div>
                         </div>
@@ -129,7 +134,7 @@ const Home = () => {
                                 imágenes y videos hasta blogs y materiales gráficos, creamos contenido que resuena con
                                 tu audiencia, destacando la singularidad de tu empresa.</p>
                             <div className={"text-center"}><Button variant="outline-light" style={{backgroundColor: '#FF7800', color: 'white'}}
-                                    href={"/servicios/paginas-web"}>
+                                    href={"/servicios/"}>
                                 Saber más
                             </Button></div>
                         </div>
@@ -138,6 +143,50 @@ const Home = () => {
                         </div>
 
                     </div>
+
+                        <div style={{display: "flex",
+                            alignItems: "center",
+                            backgroundColor: 'white',
+                        }}>
+                            <div style={{flex: 1}}>
+                                <img style={{width: "100%", height: "100%"}} src={seo} alt=""/>
+                            </div>
+                            <div style={{flex: 1, padding: "0 15px"}}>
+                                <h3 className={"text-black text-center"}>Optimización para Motores de Búsqueda (SEO)</h3>
+                                <p className={"text-black text-center"}>
+                                    Mejora la visibilidad de tu sitio web en los motores de búsqueda. Implementamos estrategias de SEO
+                                    para aumentar el tráfico orgánico y mejorar el ranking de tu sitio.
+                                </p>
+                                <div className={"text-center"}><Button variant="outline-light" style={{backgroundColor: '#FF7800', color: 'white'}}
+                                                                       href={"/servicios/"}>
+                                    Saber más
+                                </Button></div>
+                            </div>
+
+                        </div>
+
+                        <div style={{display: "flex",
+                            alignItems: "center",
+                            backgroundColor: 'white',
+                        }}>
+
+                            <div style={{flex: 1, padding: "0 15px"}}>
+                                <h3 className={"text-black text-center"}>Publicidad en Línea (ADS)</h3>
+                                <p className={"text-black text-center"}>
+                                    Potencia tu presencia en línea mediante estrategias de publicidad digital. Gestionamos campañas de
+                                    publicidad en línea para llegar a tu audiencia objetivo.
+                                </p>
+                                <div className={"text-center"}><Button variant="outline-light" style={{backgroundColor: '#FF7800', color: 'white'}}
+                                                                       href={"/servicios/"}>
+                                    Saber más
+                                </Button></div>
+                            </div>
+                            <div style={{flex: 1}}>
+                                <img style={{width: "100%", height: "100%"}} src={ads} alt=""/>
+                            </div>
+
+                        </div>
+
                     <div style={{display: "flex",
                         alignItems: "center",
                         backgroundColor: 'white',
@@ -154,7 +203,7 @@ const Home = () => {
                                 marca y convertir prospectos en clientes leales.
                             </p>
                             <div className={"text-center"}><Button variant="outline-light" style={{backgroundColor: '#FF7800', color: 'white'}}
-                                    href={"/servicios/paginas-web"}>
+                                    href={"/servicios/"}>
                                 Saber más
                             </Button></div>
                         </div>
@@ -173,7 +222,7 @@ const Home = () => {
                                 eleva la narrativa de tu marca en las redes sociales.
                             </p>
                             <div className={"text-center"}><Button variant="outline-light" style={{backgroundColor: '#FF7800', color: 'white'}}
-                                    href={"/servicios/paginas-web"}>
+                                    href={"/servicios/"}>
                                 Saber más
                             </Button></div>
                         </div>
@@ -197,7 +246,7 @@ const Home = () => {
                                 únicas que reflejen la esencia de tu marca.
                             </p>
                             <div className={"text-center"}><Button variant="outline-light" style={{backgroundColor: '#FF7800', color: 'white'}}
-                                    href={"/servicios/paginas-web"}>
+                                    href={"/servicios/"}>
                                 Saber más
                             </Button></div>
                         </div>
@@ -207,43 +256,38 @@ const Home = () => {
             </section>
 
 
+
             {/* Sección 1: Trabajos Realizados */}
-            <section className={"pb-5"}>
-                <div>
-                    <h2 className="p-5 text-white text-center" style={{backgroundColor:'#FF7800'}}>Algunos de nuestros trabajos</h2>
-                   <div className={"container"}>
-
-
-                    <div className="row pt-5">
-                        {/* Trabajo 1 */}
-                        <div className="col-md-4 mb-4">
-                            <Card className="h-100">
-                                <Card.Img variant="top" src={portafoli1} alt="Trabajo 1"/>
-                                <Card.Body>
-                                    <Card.Title className="text-center">Contenido para Instagram (Fiesta
-                                        WOW)</Card.Title>
-                                </Card.Body>
-                            </Card>
-                        </div>
-                        {/* Trabajo 2 */}
-                        <div className="col-md-4 mb-4">
-                            <Card className="h-100">
-                                <Card.Img variant="top" src={portafoli2} alt="Trabajo 2"/>
-                                <Card.Body>
-                                    <Card.Title className="text-center">Página web estática (Proyecto
-                                        propio)</Card.Title>
-                                </Card.Body>
-                            </Card>
-                        </div>
-                        {/* Trabajo 3 */}
-                        <div className="col-md-4 mb-4">
-                            <Card className="h-100">
-                                <Card.Img variant="top" src={portafoli3} alt="Trabajo 3"/>
-                                <Card.Body>
-                                    <Card.Title className="text-center">E-commerce(Proyecto Propio)</Card.Title>
-                                </Card.Body>
-                            </Card>
-                        </div>
+        <section style={{
+            backgroundImage: `url(${back})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center center',
+            backgroundRepeat: 'no-repeat',
+            minHeight: 'auto',
+        }}>
+            <h2 className="p-5 text-white text-center" style={{ backgroundColor: '#FF7800FF' }}>Algunos de nuestros trabajos</h2>
+            <div className={"container"}>
+                <div className="row pt-5 pb-5">
+                    {/* Trabajo 1 */}
+                    <div className="col-md-6 mb-4">
+                        <Card className="h-100">
+                            <Card.Img variant="top" src={portafoli1} alt="Trabajo 1" />
+                            <Card.Body>
+                                <Card.Title className="text-center">Contenido para Instagram (Fiesta WOW)</Card.Title>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    {/* Trabajo 2 */}
+                    <div className="col-md-6 mb-4">
+                        <Card className="h-100">
+                            <Card.Img variant="top" src={portafoli2} alt="Trabajo 2" />
+                            <Card.Body>
+                                <Card.Title className="text-center">Página web estática (Proyecto propio)</Card.Title>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    {/* Trabajo 3 */}
+                    <div className="col-md-12 mb-4">
                         <div style={{ width: '100%', overflow: 'hidden', height: '500px' }}>
                             <Card className="h-100">
                                 <iframe
@@ -256,18 +300,32 @@ const Home = () => {
                                 ></iframe>
                                 <Card.Body>
                                     <Card.Title className="text-center">Grabacion con drone(Fiesta Wow)</Card.Title>
-
                                 </Card.Body>
                             </Card>
-
                         </div>
-
-
-
                     </div>
-                   </div>
+                    {/* Trabajo 4 */}
+                    <div className="col-md-6 mb-4">
+                        <Card className="h-100">
+                            <Card.Img variant="top" src={portafoli4} alt="Trabajo 4" />
+                            <Card.Body>
+                                <Card.Title className="text-center">Gestión de Redes (Instagram Riu Riu)</Card.Title>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    {/* Trabajo 5 */}
+                    <div className="col-md-6 mb-4">
+                        <Card className="h-100">
+                            <Card.Img variant="top" src={portafoli3} alt="Trabajo 5" />
+                            <Card.Body>
+                                <Card.Title className="text-center">E-commerce(Proyecto Propio)</Card.Title>
+                            </Card.Body>
+                        </Card>
+                    </div>
                 </div>
-            </section>
+            </div>
+        </section>
+
         <section>
             <div>
                 <h2 className="p-5 text-white text-center" style={{backgroundColor:'#FF7800'}}>Descubre por qué somos la elección ideal</h2>
@@ -279,16 +337,19 @@ const Home = () => {
                             En Phoenix Group, nos enorgullece ofrecer soluciones integrales en marketing digital, desarrollo web,
                             diseño gráfico y gestión de eventos. Aquí te damos algunas razones para elegirnos:
                         </p>
-                        <ul className="text-left">
-                            <li className={"list-unstyled"}>Experiencia y profesionalismo.</li>
-                            <li className={"list-unstyled"}>Enfoque personalizado para cada cliente.</li>
-                            <li className={"list-unstyled"}>Resultados medibles y transparentes.</li>
-                            <li className={"list-unstyled"}>Equipo creativo y apasionado.</li>
+                        <ul className="text-center justify-content-lg-evenly">
+                            <li style={{color:"#FF7800"}} className={" list-unstyled"}><strong>Experiencia y profesionalismo.</strong>  </li>
+                            <li style={{color:"#FF7800"}} className={"list-unstyled"}><strong>Enfoque personalizado para cada cliente.</strong></li>
+                            <li style={{color:"#FF7800"}} className={"list-unstyled"}><strong>Resultados medibles y transparentes.</strong></li>
+                            <li style={{color:"#FF7800"}} className={"list-unstyled"}><strong>Equipo creativo y apasionado.</strong></li>
                         </ul>
-                        <p>
+                        <p className={"lead"}>
                             Estamos comprometidos a llevar tu empresa al siguiente nivel y a construir una presencia en línea
                             que destaque en el mercado.
                         </p>
+                        <Button variant={"outline-light"} style={{backgroundColor: '#FF7800'}} className="mt-4"><a
+                                                href="/contacto" style={{color: "white"}}>Contacta ahora</a></Button>
+
                     </div>
                     <div className=" pb-4 col-md-6">
                         <img src={hand2} alt="Razones para elegirnos" className="img-fluid" />
@@ -298,61 +359,7 @@ const Home = () => {
             </div>
         </section>
 
-        <section className={"py-5"} style={{
-            backgroundImage: `url(${hand})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center center',
-            backgroundRepeat: 'no-repeat',
-            height: '25vi',
-            display: 'flex',
-            alignItems: 'center',
-        }}>
 
-
-            <div className={"container"}>
-                <div className="text-center p-2" style={{backgroundColor:"white"}}>
-
-                    <h2 className="m-4">¿Listo para Potenciar tu Negocio?</h2>
-                    <p>
-                        Descubre cómo Phoenix Group puede llevar tu empresa al siguiente nivel. Ofrecemos soluciones
-                        personalizadas alineadas con tus objetivos comerciales.
-                    </p>
-                    <div className={'mb-4 text-center'}>
-                        <Button variant={"outline-light"} style={{backgroundColor: '#FF7800'}} className="mt-4"><a
-                            href="/contacto" style={{color: "white"}}>Contacta ahora</a></Button>
-
-                    </div>
-                </div>
-            </div>
-
-
-
-        </section>
-
-            {/* Sección 2: Logos de Clientes */}
-            {/*<section className="py-5" style={{backgroundColor: '#f8f9fa'}}>*/}
-            {/*    <div className="container">*/}
-            {/*        <h2 className="mb-4 text-dark text-center">Nuestros Clientes</h2>*/}
-            {/*        <div className="row">*/}
-            {/*            /!* Logo Cliente 1 *!/*/}
-            {/*            <div className="col-md-3 text-center">*/}
-            {/*                <img src={LogoMario} alt="Logo Cliente 1" className="img-fluid mb-3"/>*/}
-            {/*            </div>*/}
-            {/*            /!* Logo Cliente 2 *!/*/}
-            {/*            <div className="col-md-3 text-center">*/}
-            {/*                <img src={LogoGastromar} alt="Logo Cliente 2" className="img-fluid mb-3"/>*/}
-            {/*            </div>*/}
-            {/*            /!* Logo Cliente 3 *!/*/}
-            {/*            <div className="col-md-3 text-center">*/}
-            {/*                <img src={LogoFruts} alt="Logo Cliente 3" className="img-fluid mb-3"/>*/}
-            {/*            </div>*/}
-            {/*            /!* Logo Cliente 4 *!/*/}
-            {/*            <div className="col-md-3 text-center">*/}
-            {/*                <img src={LogoIce} alt="Logo Cliente 4" className="img-fluid mb-3"/>*/}
-            {/*            </div>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*</section>*/}
     </div>
 
         </Layout>
