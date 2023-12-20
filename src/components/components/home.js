@@ -305,15 +305,7 @@ const Home = () => {
                         </div>
                     </div>
                     {/* Trabajo 4 */}
-                    <div className="col-md-6 mb-4">
-                        <Card className="h-100">
-                            <Card.Img variant="top" src={portafoli4} alt="Trabajo 4" />
-                            <Card.Body>
-                                <Card.Title className="text-center">Gestión de Redes (Instagram Riu Riu)</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </div>
-                    {/* Trabajo 5 */}
+                                        {/* Trabajo 5 */}
                     <div className="col-md-6 mb-4">
                         <Card className="h-100">
                             <Card.Img variant="top" src={portafoli3} alt="Trabajo 5" />
