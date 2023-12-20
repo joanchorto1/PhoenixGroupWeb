@@ -4,7 +4,7 @@ import Layout from "../layout/layout";
 import portafoli1 from "../img/wowscreen.png"
 import portafoli2 from "../img/phoenixwebscreen.png"
 import portafoli3 from "../img/nonowebscreen2.png"
-import portafoli4 from "../img/igriuriu.png"
+// import portafoli4 from "../img/igriuriu.png"
 // import LogoFruts from "../img/FruitsRobert.jpeg";
 // import LogoMario from "../img/construcionesMario.jpeg"
 // import LogoGastromar from "../img/gastromarIA.jpeg";
