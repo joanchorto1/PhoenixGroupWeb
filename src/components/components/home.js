@@ -4,6 +4,7 @@ import Layout from "../layout/layout";
 import portafoli1 from "../img/wowscreen.png"
 import portafoli2 from "../img/phoenixwebscreen.png"
 import portafoli3 from "../img/nonowebscreen2.png"
+import delta from "../img/peninsula.jpeg"
 // import portafoli4 from "../img/igriuriu.png"
 // import LogoFruts from "../img/FruitsRobert.jpeg";
 // import LogoMario from "../img/construcionesMario.jpeg"
@@ -317,6 +318,45 @@ const Home = () => {
                 </div>
             </div>
         </section>
+        <section className="pb-5">
+            <h2 className="p-5 text-white text-center" style={{ backgroundColor: '#FF7800' }}>
+                Nuestras Ubicaciones
+            </h2>
+            <div className="container">
+                <div className="row justify-content-center align-items-center">
+
+                    <div className="col-md-6">
+                        <img
+                            src={delta}
+                            alt="Ubicaciones"
+                            style={{ width: '100%', height: '100%' }}
+                        />
+                    </div>
+                    <div className="col-md-6">
+                    <div>
+                        <p className="text-black pt-4">
+                            Estamos orgullosos de ofrecer nuestros servicios en diversas ubicaciones en Les Terres de l'Ebre y algunas ciudades de Tarragona.
+                        </p>
+                        <p>
+                            <ul style={{color:"#FF7800"}}>
+                                <li className={"list-unstyled"}><strong>Amposta</strong></li>
+                                <li className={"list-unstyled"}><strong>Tortosa</strong></li>
+                                <li className={"list-unstyled"}><strong>L'Aldea</strong></li>
+                                <li className={"list-unstyled"}><strong>Deltebre</strong></li>
+                                <li className={"list-unstyled"}><strong>Santa Barbara</strong></li>
+                                <li className={"list-unstyled"}><strong>Cambrils</strong></li>
+                                <li className={"list-unstyled"}><strong>Reus</strong></li>
+                            </ul>
+                        </p>
+                        <p>
+                            Nuestro compromiso es brindar soluciones de marketing digital de calidad en todas estas áreas, contribuyendo al crecimiento y éxito de nuestros clientes.
+                        </p>
+
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
 
         <section>
             <div>
@@ -325,7 +365,7 @@ const Home = () => {
                 <div className="container text-center">
                 <div className="row justify-content-center align-items-center">
                     <div className="p-4 col-md-6">
-                        <p className="lead">
+                        <p >
                             En Phoenix Group, nos enorgullece ofrecer soluciones integrales en marketing digital, desarrollo web,
                             diseño gráfico y gestión de eventos. Aquí te damos algunas razones para elegirnos:
                         </p>
@@ -335,7 +375,7 @@ const Home = () => {
                             <li style={{color:"#FF7800"}} className={"list-unstyled"}><strong>Resultados medibles y transparentes.</strong></li>
                             <li style={{color:"#FF7800"}} className={"list-unstyled"}><strong>Equipo creativo y apasionado.</strong></li>
                         </ul>
-                        <p className={"lead"}>
+                        <p >
                             Estamos comprometidos a llevar tu empresa al siguiente nivel y a construir una presencia en línea
                             que destaque en el mercado.
                         </p>
