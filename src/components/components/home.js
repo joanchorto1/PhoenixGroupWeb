@@ -38,8 +38,8 @@ const Home = () => {
             <Helmet>
                 <title>Phoenix Group Tarragona - Tu agencia de marketing digital y desarrollo web. </title>
                 <link rel="canonical" href="https://phoenixgrp.es/"/>
-                <meta name={"description"}
-                      content={"Ofrecemos servicios de marketing digital, desarrollo web, diseño gráfico y gestión de eventos.¡Potencia tu presencia en línea con Phoenix Group! Ubicados en Tarragona y el delta de l'ebre."}/>
+                <meta name="description"
+                      content="Ofrecemos servicios de marketing digital, desarrollo web, diseño gráfico y gestión de eventos.¡Potencia tu presencia en línea con Phoenix Group! Ubicados en Tarragona y el delta de l'ebre."/>
                 <link rel="icon" href="https://phoenixgrp.es/phoenixlogo2.png"/>
             </Helmet>
     <div style={{margin:'0', paddingTop:'0', paddingBottom:'0'}}>
